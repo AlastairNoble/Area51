@@ -34,6 +34,7 @@ public class ufo : MonoBehaviour
                 {
                     SceneManager.LoadScene("StartScene");
                 }
+                PlayerPrefs.SetString("arcadeMode","unlocked");
             }
 
         }
